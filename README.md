@@ -22,8 +22,8 @@ example docker-compose file:
       - TUNNELHOST=username@123.123.123.123   # username and IP Address or hostname of host
       - TUNNELPORT=22
       - REMOTEHOST=localhost
-      - LOCALPORT=1234  # amend to the port of the remote service to tunnel to
-      - REMOTEPORT=10013  # use between 10001-10100
+      - LOCALPORT=10013  # use between 10001-10100
+      - REMOTEPORT=1234  # amend to the port of the remote service to tunnel to
       #
       - KEY=/data/sshkey-filename
       #     
