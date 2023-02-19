@@ -10,6 +10,11 @@ This is a similar image but has only 100 ports exposed - 10000 - 100100 instead 
 
 example docker-compose file:
 ```
+version: "3"
+
+services:
+
+#
   sshtunnel:
     image: beastarman/ssh-tunnel
     container_name: ssh-tunnel
