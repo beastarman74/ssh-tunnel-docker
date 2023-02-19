@@ -1,4 +1,9 @@
-sshtunnel:
+version: "3"
+
+services:
+
+#
+  sshtunnel:
     image: beastarman/ssh-tunnel
     container_name: ssh-tunnel
     ports:
